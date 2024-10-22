@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d2651aebb1.js" crossorigin="anonymous"></script>
+    <title>Spotify-Web Player : Music for eyeryone</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="images/Spotify-Icon-Logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- this is the root div  -->
+    <div class="root">
+        <div class="left-section">
+            <div class="logo">
+                <i class="fa-brands fa-spotify fa-2xl" style="color: #f7f7f7;"></i>
+            </div>
+            <div class="library">
+                <div class="create-library">
+                    <i class="fa-solid fa-bars fa-lg"></i>
+                    <a href="#"> Your Library</a>
+                    <i class="fa-regular fa-plus fa-1x"></i>
+                    <!-- + icon -->
+                </div>
+                <div class="container">
+                    <div class="create">
+                        <div class="create-playlist">
+                            <h3>Create your playlist</h3>
+                            <p>It's easy we'll help you</p>
+                            <button>create playlist</button>
+                        </div>
+                        <div class="browse-podcast">
+                            <h3>Let's find some podcast to follow</h3>
+                            <p>We'll keep you updated on new episodes</p>
+                            <button>Browse podcast</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-container">
+                    <footer>
+                        <ul>
+                            <li><a href="$">Legal</a></li>
+                            <li><a href="#">Safety & Privacy Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookies</a></li>
+                            <li><a href="#">About Ads</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Cookies</a></li>
+                        </ul>
+                    </footer>
+                    <div class="language">
+                        <button>
+                            <i class="fa-solid fa-globe fa-lg"></i>
+                            English
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signup-container">
+            <div class="signup-text">
+                <h3>Preview of spotify</h3>
+                <p>Sign up to get free songs and podcast with occassional ads. No credit card needed</p>
+            </div>
+            <div class="singup-for-free">
+                <button>
+                    Sign up free
+                </button>
+            </div>
+        </div>
+        <div class="right-section">
+            <header>
+                <div class="banner-top">
+                    <span class="home"><img src="images/icons8-home-24.png" style="color: black;" alt=""></span>
+                    <div class="search-bar">
+                        <span id="search-icon" class="material-symbols-outlined">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                                fill="#5f6368">
+                                <path
+                                    d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                            </svg>
+                        </span>
+                        <input type="text" placeholder=" What do you want to play? ">
+                        <div class="vl"></div>
+                        <span id="browse-icon" class="material-symbols-outlined">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px"
+                                fill="#5f6368">
+                                <path
+                                    d="m200-120-80-480h720l-80 480H200Zm67-80h426l51-320H216l51 320Zm133-160h160q17 0 28.5-11.5T600-400q0-17-11.5-28.5T560-440H400q-17 0-28.5 11.5T360-400q0 17 11.5 28.5T400-360ZM240-640q-17 0-28.5-11.5T200-680q0-17 11.5-28.5T240-720h480q17 0 28.5 11.5T760-680q0 17-11.5 28.5T720-640H240Zm80-120q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760H320Zm-53 560h426-426Z" />
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="buttons-container">
+                        <button class="signup-button">Sign up</button>
+                        <button class="login">Login</button>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="right-container">
+                    <div class="popular-artist">
+                        <div class="heading">
+                            <h1>Popular Artist</h1>
+                            <a href="#">show all</a>
+                        </div>
+                        <div class="images">
+                            <a href="#">
+                                <div class="artists" id="pritam">
+                                    <img src="images/round-images/pritam.png" alt="">
+                                    <h4>Pritam</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="artists" id="arijit">
+                                    <img src="images/round-images/arijit.png" alt="">
+                                    <h4>Arijit Singh</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="artists" id="arrahman">
+                                    <img src="images/round-images/AR Rahman.png" alt="">
+                                    <h4>A.R. Rahman</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="artists" id="sachin">
+                                    <img src="images/round-images/Sachin.png" alt="">
+                                    <h4>Sachin Jigar</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="artists" id="anirudh">
+                                    <img src="images/round-images/anirudh.png" alt="">
+                                    <h4>Anirudh <br>Ravichander</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="artists" id="Mishra">
+                                    <img src="images/round-images/Vishal.png" alt="">
+                                    <h4>Vishal Mishra</h4>
+                                    <p class="subtag">Artist</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popular-albums">
+                        <div class="heading">
+                            <h1>Popular Albums</h1>
+                            <a href="#">show all</a>
+                        </div>
+                        <div class="images">
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/2000mix-playlist.jpeg" alt="error404">
+                                    <h4>Ashiqui 2</h4>
+                                    <p>Mithoon,Ankit Tiwari,Jeet Ganghuli</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/love hotel.jpeg" alt="error404">
+                                    <h4>love hotel</h4>
+                                    <p>leftovermax</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/animal.jpeg" alt="error404">
+                                    <h4>Ashiqui 2</h4>
+                                    <p>Mithoon,Ankit Tiwari,Jeet Ganghuli</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/ek tha raja.jpeg" alt="error404">
+                                    <h4>ANIMAL</h4>
+                                    <p>Manan Bhardwaj,Vishal Mishra,Jaani</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/dil-ka-sukoon-playlist.jpeg" alt="error404">
+                                    <h4>EK Tha Raja</h4>
+                                    <p>Badshah</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="albums">
+                                    <img src="images/playlist/sajini.jpeg" alt="error404">
+                                    <h4>Sajini(From "Laapata Ladies")</h4>
+                                    <p>Ram Sampath,Arijit Singh,Prashant....</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popular-radio">
+                        <div class="heading">
+                            <h1>Popular Radio</h1>
+                            <a href="#">show all</a>
+                        </div>
+                        <div class="images">
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/arijith radio.jpeg" alt="error404">
+                                    <h4>Arijit Singh Radio</h4>
+                                    <p>with Neha Kakkar,Pritam,KK and more</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/ar rahman radio.jpeg" alt="error404">
+                                    <h4>A.R. Rahman</h4>
+                                    <p>With Shankar Mahadevan,Anirudh Ravichandar,Yuvan Shankar Raja...</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/billie eilish.jpeg" alt="error404">
+                                    <h4>Billie Eilish</h4>
+                                    <p class="sub-text">By Spotify</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/dabzee-radio.jpeg" alt="error404">
+                                    <h4>Dabzee</h4>
+                                    <p>By Spotify</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/taylor swift.jpeg" alt="error404">
+                                    <h4>Taylor Swift</h4>
+                                    <p>By Spotify</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="radio-img">
+                                    <img src="images/playlist/shreya goshal.jpeg" alt="error404">
+                                    <h4>Shreya Ghoshal</h4>
+                                    <p>With Sonu Nigam,Shaan and more</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
